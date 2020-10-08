@@ -33,10 +33,10 @@ const Landing = () => {
        <>
         <div onMouseOver={setLeftImg}
             onMouseOut={deleteLeftImg}
-         className="leftbox">
+         className="leftBox">
             <Link to="/signUp" className="btn-welcome">Insciption</Link>
         </div>
-        <div className="rightbox"
+        <div className="rightBox"
         onMouseOver={setRightImg}
         onMouseOut={deleteRightImg}
         >

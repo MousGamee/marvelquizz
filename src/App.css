@@ -156,9 +156,9 @@ main {
   background-color: transparent;
   font-weight: normal;
   font-size: 19px;
+  margin-top: 180px;
   text-align: center;
   text-decoration: none;
-  margin-top: 150px;
 }
 
 .btn-welcome:hover {
@@ -838,8 +838,6 @@ input:checked+.slider:before {
     flex: 0 1 40%;
     justify-content: center;
     align-items: center;
-    padding-top: 188px;
-    padding-left: 16%;
   }
 
   .rightBox {
@@ -847,8 +845,6 @@ input:checked+.slider:before {
     flex: 0 1 40%;
     justify-content: center;
     align-items: center;
-    padding-top:188px;
-    padding-right: 16%;
   }
 
   .btn-welcome {
