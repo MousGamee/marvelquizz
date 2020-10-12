@@ -158,7 +158,6 @@ const QuizOver = React.forwardRef(({levelName,score,maxQuestion, quizLevel ,prec
                     : <p> Description non disponible </p>
                }
                <h3> Plus d'infos</h3>
-               
                {
                    characterData.data.results[0].urls && 
                    characterData.data.results[0].urls.map((url, index) => (

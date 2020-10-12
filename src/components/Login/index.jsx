@@ -47,7 +47,7 @@ const Login = (props) => {
                                 <label htmlFor="password">Mot de Passe</label>
                             </div>
 
-                            <button type="submit">S'inscrire</button>
+                            <button type="submit">Connexion</button>
                         </form>
                         <div className="linkContainer">
                             <Link className="simpleLink"to="/signup">Nouveau sur marvel quiz? incrivez vous maintenant !</Link>

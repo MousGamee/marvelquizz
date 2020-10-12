@@ -34,11 +34,13 @@ const Welcome = props => {
 
     }, [userSession])
 
+  
+
     return userSession === null ? (
-        <>
+        <button>
             <div className="loader"></div>
             <p className="loaderText">Chargement en cours ...</p>
-        </>
+        </button>
     ) : (
         <div className="quiz-bg">
         <div className="container">
